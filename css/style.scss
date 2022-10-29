@@ -307,3 +307,70 @@ $dark:#000000;
         color: white;
     }
 }
+//badged code start here.//
+@mixin badge{
+    padding: 4px 10px;
+    width: auto;
+    font-size: 13px;
+    margin: 1px 8px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.sys-pin-outline-badge{
+    @include badge;
+}
+.sys-pin-basic-badge{
+    @include badge;
+    border:none;
+    padding: 5px 11px;
+}
+i{
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.badge-accent{
+    color:$accent-100;
+    border:1.6px solid $accent-100 ;
+}
+.badge-alert{
+    color:$alert-100 ;
+    border:1.6px solid $alert-100;
+}
+.badge-olive{
+    color:$olive-100 ;
+    border:1.6px solid $olive-100;
+}
+.badge-error{
+    color: $error-100;
+    border:1.6px solid $error-100 ;
+}
+.badge-secondary{
+    color: $secondary-100;
+    border:1.6px solid $secondary-100;
+}
+//sys- color//
+.sys-accent{
+    background-color:$accent-19;
+    color:$accent-100;
+}
+.sys-olive{
+    color:$olive-100 ;
+    background-color:$olive-19;
+
+}
+.sys-error{
+    color: $error-100;
+    background-color:$error-19;
+}
+.sys-secondary{
+    color: $secondary-100;
+    background-color:$secondary-19;
+}
+.sys-alert{
+    color: $alert-100;
+    background-color:$alert-19;
+}
