@@ -5,6 +5,7 @@
 @import url(./content/typography/sys-typography.css);
 @import url(./content/images/sys-image.css);
 @import url(./utilites/spacing/sys-utilities.css);
+@import url(./component/sys-components/sys-header/sys-header.css);
 * {
   margin: 0;
   padding: 0;
