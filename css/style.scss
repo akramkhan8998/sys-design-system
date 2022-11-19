@@ -6,6 +6,8 @@
 @import url(./content/images/sys-image.css);
 @import url(./utilites/spacing/sys-utilities.css);
 @import url(./component/sys-components/sys-header/sys-header.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url(./utilites/border/sys-border.css);
 
 *{
     margin: 0;
@@ -166,6 +168,81 @@ $gray:#292929;
     font-size: 13px;
     border-radius: 15px;
     border:1px solid;
+}
+
+@mixin card-v1{
+    padding: 1.3rem;
+    max-width: 30%;
+    width: auto !important;
+    border-radius: 10px !important;
+    .sys-grid{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icon, img{
+        border-radius: 100%;
+        width: 100px;
+        height: 95px;
+        object-fit: cover;
+    }
+    .title, .sub-title{
+        font-size: 20.58px;
+        text-transform: capitalize;
+    }
+    .sub-title{
+        font-size: 16px;
+        color: $secondary-100;
+    }
+    .sys-action{
+        margin-top: 1.5rem;
+        button, a{
+            width: 100%;
+        }
+    }
+    float: none !important;
+}
+
+@mixin card-v2 {
+    max-width: 20%;
+    .sys-grid{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    @include card-v1();
+    .sys-action{
+        display: flex;
+        button, a{
+            margin-right: 10px;
+        }
+    }
+    .details{
+        line-height: 2.2;
+    }
+    .social-links{
+       margin: 1rem 0;
+        ul{
+            list-style-type: none;
+            padding-left: 0px;
+            li{
+                display: inline-block;
+                margin-right: 1rem;
+                a{
+                    font-size: 20px;
+                    color: $secondary-100;
+                }
+            }
+        }
+    }
+}
+
+.sys-card-v1{   
+    @include card-v1();
+}
+.sys-card-v2{
+    @include card-v2();
 }
 
 .sys-pin-outline-badge{
@@ -804,6 +881,12 @@ $gray:#292929;
         filter: drop-shadow(0px 4px 4px rgba(108, 117, 125, 0.4));
     }
 }
+
+
+
+// sys-card
+
+
 
 
 // dark theme eploraton
