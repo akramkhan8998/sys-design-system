@@ -173,7 +173,7 @@ $gray:#292929;
 
 @mixin card-v1{
     padding: 1.3rem;
-    max-width: 32%;
+    max-width: 40%;
     width: auto !important;
     border-radius: 10px !important;
     height: 100%;
@@ -381,45 +381,45 @@ $gray:#292929;
     } 
 }
 
-@mixin card{
-    width: 18rem;
-    background-color: gray;
-    color: white;
-    border-radius: 4px;
-    .sys-card-header, .sys-card-body, .sys-card-footer{
-        padding: 0.9rem;
-    }
-    .sys-card-header{
-        font-size: 0.70rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .sys-card-subtitle{
-        font-size: 0.9rem;
-        color: darkgray;
-    }
-    .sys-card-body{
-        width: 100%;
-        height: 78px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        line-height: 20px;
-        margin-bottom: 10px;
+// @mixin card{
+//     width: 18rem;
+//     background-color: gray;
+//     color: white;
+//     border-radius: 4px;
+//     .sys-card-header, .sys-card-body, .sys-card-footer{
+//         padding: 0.9rem;
+//     }
+//     .sys-card-header{
+//         font-size: 0.70rem;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//     }
+//     .sys-card-subtitle{
+//         font-size: 0.9rem;
+//         color: darkgray;
+//     }
+//     .sys-card-body{
+//         width: 100%;
+//         height: 78px;
+//         overflow: hidden;
+//         text-overflow: ellipsis;
+//         line-height: 20px;
+//         margin-bottom: 10px;
 
-    }
-    .sys-card-footer{
-        border-top: 1px solid white;
-        padding: 8px 10px;
-    }
+//     }
+//     .sys-card-footer{
+//         border-top: 1px solid white;
+//         padding: 8px 10px;
+//     }
 
    
-}
+// }
 
 
-.sys-card{
-    @include card;
-}
+// .sys-card{
+//     @include card;
+// }
 
 .sys-elevation{
     @include elevation();
