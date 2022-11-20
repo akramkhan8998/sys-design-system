@@ -68,7 +68,24 @@ $systheme-colors: (
 );
 
 .sys-sidebar{
-    width: 70vh;
+    display: flex;
+    .sidebar-content{
+        width: 100%;
+        padding: 1rem;
+        margin-left: 200px;
+    }
+  
+    .sidebar-collapse ~ .sidebar-content{
+        margin-left: 70px;
+    }
+  
+}
+.sys-sidebar-menu{
+    width: 200px;
+    background: white;
+    position: fixed;
+    left: 0;
+   
     height: 100%;
     margin: 0px !important;
     .sys-sidebar-head{
@@ -142,7 +159,7 @@ $systheme-colors: (
 
 .sidebar-scroll{
     overflow-y: scroll;
-    height: 100vh;
+    height: 100%;
 }
 .sidebar-scroll::-webkit-scrollbar{
     width: 2px;
