@@ -1,7 +1,6 @@
 .sys-grid {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 .sys-grid .col-md-6 {
   width: 50%;
