@@ -9,6 +9,9 @@
 .sys-sidebar .sidebar-collapse ~ .sidebar-content {
   margin-left: 70px;
 }
+.sys-sidebar .sys-container {
+  width: 100%;
+}
 
 .sys-sidebar-menu {
   width: 200px;
