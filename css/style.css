@@ -19,6 +19,7 @@
   max-width: 32%;
   width: auto !important;
   border-radius: 10px !important;
+  height: 100%;
   float: none !important;
 }
 .sys-card-v1 .sys-grid {
@@ -53,6 +54,7 @@
   max-width: 32%;
   width: auto !important;
   border-radius: 10px !important;
+  height: 100%;
   float: none !important;
 }
 .sys-card-v2 .sys-grid {
