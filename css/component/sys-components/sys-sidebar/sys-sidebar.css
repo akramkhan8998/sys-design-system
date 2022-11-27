@@ -12,6 +12,16 @@
 .sys-sidebar .sys-container {
   width: 100%;
 }
+.sys-sidebar .sys-sub-menu {
+  padding-left: 0px;
+  margin-top: 15px;
+  line-height: 1.7;
+  display: none;
+}
+
+.active {
+  display: block;
+}
 
 .sys-sidebar-menu {
   width: 200px;

@@ -20,11 +20,19 @@
             </div>
             <hr>
             <div class="sys-sidebar-body">
-                <ul>
+                <ul class="sys-menu">
                     <li title="Home"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
                     <li title="Dashboard"><a href="#"><i class="fa fa-dashboard" aria-hidden="true"></i> <span>Dashboard</span></a></li>
                     <li title="Products"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Products</span></a></li>
-                    <li title="Analytic"><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span>Analytic</span></a></li>
+                    <li title="Analytic" class="sysdropDown" onclick="infofunc(event, 'artificial')">
+                        <a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span>Analytic</span></a>
+                    </li>
+                    <div class="sys-sub-menu" id="artificial">
+                        <div class="sub-link"><a href="#">Drop Down 1</a></div>
+                        <div class="sub-link"><a href="#">Drop Down 1</a></div>
+                        <div class="sub-link"><a href="#">Drop Down 1</a></div>
+                        <div class="sub-link"><a href="#">Drop Down 1</a></div>
+                    </div>
                     <li title="Schedule"><a href="#"><i class="fa fa-clock" aria-hidden="true"></i> <span>Schedule</span></a></li>
                     <li title="History"><a href="#"><i class="fa fa-history" aria-hidden="true"></i> <span>History</span></a></li>
                     <li title="Sales"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> <span>Sales</span></a></li>
@@ -50,8 +58,7 @@
         </div>
     
         <div class="sidebar-content">
-            <h1>Side Bar Content</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+           <h1>Hi I Aam ayushman !!</h1>
         </div>
     </div>
    <script src="app.js"></script>
