@@ -511,4 +511,104 @@
 
 .overflowY-auto {
   overflow-y: auto;
+}
+
+.sys-radius {
+  border-radius: 4px;
+}
+
+.sys-radius-ts {
+  border-top-left-radius: 4px;
+}
+
+.sys-radius-te {
+  border-top-right-radius: 4px;
+}
+
+.sys-radius-bs {
+  border-bottom-left-radius: 4px;
+}
+
+.sys-radius-be {
+  border-bottom-right-radius: 4px;
+}
+
+.sys-radius {
+  border-radius: 4px;
+}
+
+.sys-radius-ts {
+  border-top-left-radius: 4px;
+}
+
+.sys-radius-te {
+  border-top-right-radius: 4px;
+}
+
+.sys-radius-bs {
+  border-bottom-left-radius: 4px;
+}
+
+.sys-radius-be {
+  border-bottom-right-radius: 4px;
+}
+
+.sys-radius-sm {
+  border-radius: 4px;
+}
+
+.sys-radius-sm-ts {
+  border-radius: 4px;
+}
+
+.sys-radius-sm-te {
+  border-radius: 4px;
+}
+
+.sys-radius-sm-bs {
+  border-radius: 4px;
+}
+
+.sys-radius-sm-be {
+  border-radius: 4px;
+}
+
+.sys-radius-lg {
+  border-radius: 1rem;
+}
+
+.sys-radius-lg-ts {
+  border-radius: 1rem;
+}
+
+.sys-radius-lg-te {
+  border-radius: 1rem;
+}
+
+.sys-radius-lg-bs {
+  border-radius: 1rem;
+}
+
+.sys-radius-lg-be {
+  border-radius: 1rem;
+}
+
+.sys-radius-xlg {
+  border-radius: 1.5rem;
+}
+
+.sys-radius-xlg-ts {
+  border-radius: 1.5rem;
+}
+
+.sys-radius-xlg-te {
+  border-radius: 1.5rem;
+}
+
+.sys-radius-xlg-bs {
+  border-radius: 1.5rem;
+}
+
+.sys-radius-xlg-be {
+  border-radius: 1.5rem;
 }/*# sourceMappingURL=sys-helpers.css.map */

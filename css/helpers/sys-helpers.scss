@@ -225,3 +225,43 @@ $systheme-colors: (
 .overflow-auto{overflow: auto;}
 .overflowX-auto{overflow-x: auto;}
 .overflowY-auto{overflow-y: auto;}
+
+$radius:(
+   "sm" : 4px,
+   "lg" : 1rem,
+   "xlg" : 1.5rem,
+);
+
+// radius
+.sys-radius{border-radius: 4px;}
+.sys-radius-ts{border-top-left-radius: 4px;}
+.sys-radius-te{border-top-right-radius: 4px;}
+.sys-radius-bs{border-bottom-left-radius: 4px;}
+.sys-radius-be{border-bottom-right-radius: 4px;}
+
+.sys-radius{border-radius: 4px;}
+.sys-radius-ts{border-top-left-radius: 4px;}
+.sys-radius-te{border-top-right-radius: 4px;}
+.sys-radius-bs{border-bottom-left-radius: 4px;}
+.sys-radius-be{border-bottom-right-radius: 4px;}
+
+.sys-radius-sm{border-radius: map.get($radius, "sm");}
+.sys-radius-sm-ts{border-radius: map.get($radius, "sm");}
+.sys-radius-sm-te{border-radius: map.get($radius, "sm");}
+.sys-radius-sm-bs{border-radius: map.get($radius, "sm");}
+.sys-radius-sm-be{border-radius: map.get($radius, "sm");}
+
+
+.sys-radius-lg{border-radius: map.get($radius, "lg");}
+.sys-radius-lg-ts{border-radius: map.get($radius, "lg");}
+.sys-radius-lg-te{border-radius: map.get($radius, "lg");}
+.sys-radius-lg-bs{border-radius: map.get($radius, "lg");}
+.sys-radius-lg-be{border-radius: map.get($radius, "lg");}
+
+.sys-radius-xlg{border-radius: map.get($radius, "xlg");}
+.sys-radius-xlg-ts{border-radius: map.get($radius, "xlg");}
+.sys-radius-xlg-te{border-radius: map.get($radius, "xlg");}
+.sys-radius-xlg-bs{border-radius: map.get($radius, "xlg");}
+.sys-radius-xlg-be{border-radius: map.get($radius, "xlg");}
+
+
