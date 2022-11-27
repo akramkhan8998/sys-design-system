@@ -246,22 +246,22 @@ $radius:(
 .sys-radius-be{border-bottom-right-radius: 4px;}
 
 .sys-radius-sm{border-radius: map.get($radius, "sm");}
-.sys-radius-sm-ts{border-radius: map.get($radius, "sm");}
-.sys-radius-sm-te{border-radius: map.get($radius, "sm");}
-.sys-radius-sm-bs{border-radius: map.get($radius, "sm");}
-.sys-radius-sm-be{border-radius: map.get($radius, "sm");}
+.sys-radius-sm-ts{border-top-left-radius: map.get($radius, "sm");}
+.sys-radius-sm-te{border-top-right-radius: map.get($radius, "sm");}
+.sys-radius-sm-bs{border-bottom-left-radius: map.get($radius, "sm");}
+.sys-radius-sm-be{border-bottom-right-radius: map.get($radius, "sm");}
 
 
 .sys-radius-lg{border-radius: map.get($radius, "lg");}
-.sys-radius-lg-ts{border-radius: map.get($radius, "lg");}
-.sys-radius-lg-te{border-radius: map.get($radius, "lg");}
-.sys-radius-lg-bs{border-radius: map.get($radius, "lg");}
-.sys-radius-lg-be{border-radius: map.get($radius, "lg");}
+.sys-radius-lg-ts{border-top-left-radius: map.get($radius, "lg");}
+.sys-radius-lg-te{border-top-right-radius: map.get($radius, "lg");}
+.sys-radius-lg-bs{border-bottom-left-radius: map.get($radius, "lg");}
+.sys-radius-lg-be{border-bottom-right-radius: map.get($radius, "lg");}
 
 .sys-radius-xlg{border-radius: map.get($radius, "xlg");}
-.sys-radius-xlg-ts{border-radius: map.get($radius, "xlg");}
-.sys-radius-xlg-te{border-radius: map.get($radius, "xlg");}
-.sys-radius-xlg-bs{border-radius: map.get($radius, "xlg");}
-.sys-radius-xlg-be{border-radius: map.get($radius, "xlg");}
+.sys-radius-xlg-ts{border-top-left-radius: map.get($radius, "xlg");}
+.sys-radius-xlg-te{border-top-right-radius: map.get($radius, "xlg");}
+.sys-radius-xlg-bs{border-bottom-left-radius: map.get($radius, "xlg");}
+.sys-radius-xlg-be{border-bottom-right-radius: map.get($radius, "xlg");}
 
 
