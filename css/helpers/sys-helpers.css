@@ -475,4 +475,40 @@
 .fixed-bottom {
   position: fixed;
   bottom: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflowX-hidden {
+  overflow-x: hidden;
+}
+
+.overflowY-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflowX-scroll {
+  overflow-x: scroll;
+}
+
+.overflowY-scroll {
+  overflow-y: scroll;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflowX-auto {
+  overflow-x: auto;
+}
+
+.overflowY-auto {
+  overflow-y: auto;
 }/*# sourceMappingURL=sys-helpers.css.map */

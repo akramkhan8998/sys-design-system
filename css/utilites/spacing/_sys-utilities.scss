@@ -1,5 +1,10 @@
 
 /* padding */
+.p-auto{padding: auto;}
+.pt-auto{ padding-top: auto;}
+.pe-auto{padding-right: auto;}
+.ps-auto{padding-left: auto;}
+.pb-auto{padding-bottom: auto;}
 .p-0{
     padding: 0;
 }
@@ -113,6 +118,21 @@
 }
 .mb-0{
     margin-bottom: 0;
+}
+.m-auto{
+    margin: auto;
+}
+.mt-auto{
+    margin-top: auto;
+}
+.me-auto{
+    margin-right: auto;
+}
+.ms-auto{
+    margin-left: auto;
+}
+.mb-auto{
+    margin-bottom: auto;
 }
 .m-1 {
     margin: 0.25rem!important;
