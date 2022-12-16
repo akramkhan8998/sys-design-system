@@ -1,0 +1,22 @@
+@use '../../../utilites/spacing/sys-utilities';
+
+header.sys-header{
+    .sys-grid{
+        align-items: center;
+    }
+}
+
+ul.sys-navbar{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    li{
+        display: inline-block;
+        margin-right: 1rem;
+        a{ 
+            
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+    }
+}

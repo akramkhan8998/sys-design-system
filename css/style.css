@@ -5,10 +5,115 @@
 @import url(./content/typography/sys-typography.css);
 @import url(./content/images/sys-image.css);
 @import url(./utilites/spacing/sys-utilities.css);
+@import url(./component/sys-components/sys-header/sys-header.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url(./utilites/border/sys-border.css);
+@import url(./component/sys-components/sys-sidebar/sys-sidebar.css);
+@import url(./utilites/text-alignments/sys-text-alignment.css);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.sys-card-v1 {
+  padding: 1.3rem;
+  max-width: 40%;
+  width: auto !important;
+  border-radius: 10px !important;
+  height: 100%;
+  float: none !important;
+}
+.sys-card-v1 .sys-grid {
+  justify-content: space-between;
+  align-items: center;
+}
+.sys-card-v1 .icon, .sys-card-v1 img {
+  border-radius: 100%;
+  width: 100px;
+  height: 95px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sys-card-v1 .title, .sys-card-v1 .sub-title {
+  font-size: 20.58px;
+  text-transform: capitalize;
+}
+.sys-card-v1 .sub-title {
+  font-size: 16px;
+  color: #6c757d;
+}
+.sys-card-v1 .sys-action {
+  margin-top: 1.5rem;
+}
+.sys-card-v1 .sys-action button, .sys-card-v1 .sys-action a {
+  width: 100%;
+}
+
+.sys-card-v2 {
+  max-width: 20%;
+  padding: 1.3rem;
+  max-width: 40%;
+  width: auto !important;
+  border-radius: 10px !important;
+  height: 100%;
+  float: none !important;
+}
+.sys-card-v2 .sys-grid {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+.sys-card-v2 .sys-grid {
+  justify-content: space-between;
+  align-items: center;
+}
+.sys-card-v2 .icon, .sys-card-v2 img {
+  border-radius: 100%;
+  width: 100px;
+  height: 95px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sys-card-v2 .title, .sys-card-v2 .sub-title {
+  font-size: 20.58px;
+  text-transform: capitalize;
+}
+.sys-card-v2 .sub-title {
+  font-size: 16px;
+  color: #6c757d;
+}
+.sys-card-v2 .sys-action {
+  margin-top: 1.5rem;
+}
+.sys-card-v2 .sys-action button, .sys-card-v2 .sys-action a {
+  width: 100%;
+}
+.sys-card-v2 .sys-action {
+  display: flex;
+}
+.sys-card-v2 .sys-action button, .sys-card-v2 .sys-action a {
+  margin-right: 10px;
+}
+.sys-card-v2 .details {
+  line-height: 2.2;
+}
+.sys-card-v2 .social-links {
+  margin: 1rem 0;
+}
+.sys-card-v2 .social-links ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.sys-card-v2 .social-links ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.sys-card-v2 .social-links ul li a {
+  font-size: 20px;
+  color: #6c757d;
 }
 
 .sys-pin-outline-badge {
@@ -131,6 +236,7 @@
   margin-right: 6px;
 }
 
+<<<<<<< HEAD
 .sys-card {
   width: 18rem;
   background-color: gray;
@@ -162,6 +268,23 @@
   border-top: 1px solid white;
   padding: 8px 10px;
 }
+=======
+.sys-elevation {
+  padding: 1rem;
+  border-radius: 4px;
+  width: 200px;
+  float: left;
+  margin: 10px;
+}
+.sys-elevation .elevation-title {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.sys-elevation .elevation-content {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+>>>>>>> 013a66c264766789d36f14d80081842c7e4491fd
 
 .sys-elevation-v1 {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);

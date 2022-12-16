@@ -1,22 +1,22 @@
 .sys-container {
-  width: 1190px;
+  width: 95%;
   margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 .sys-container-sm {
-  width: 1070px;
+  width: 90%;
   margin: 0 auto;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
 }
 
 .sys-container-lg {
-  width: 1250px;
+  width: 100%;
   margin: 0 auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .sys-container-xl {
