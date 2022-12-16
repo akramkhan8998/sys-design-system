@@ -284,22 +284,22 @@ $gray:#292929;
     } 
 }
 
-@mixin elevation-dark {
-    padding: 1rem;
-    border-radius: 4px;
-    width: 200px;
-    background-color: $gray;
-    margin: 10px;
-    .elevation-title{
-        color:white;
-        font-size: 1rem;
-    }
-    .elevation-content{
-        color:white;
-        line-height: 20px;
-        margin-bottom: 10px;
-    } 
-}
+// @mixin elevation-dark {
+//     padding: 1rem;
+//     border-radius: 4px;
+//     width: 200px;
+//     background-color: $gray;
+//     margin: 10px;
+//     .elevation-title{
+//         color:white;
+//         font-size: 1rem;
+//     }
+//     .elevation-content{
+//         color:white;
+//         line-height: 20px;
+//         margin-bottom: 10px;
+//     } 
+// }
 
 @mixin card{
     width: 18rem;
@@ -341,32 +341,23 @@ $gray:#292929;
     @include card;
 }
 
-.sys-elevation{
-    @include elevation();
-}
-
-.sys-elevation-v1{
-    @include elevation();
+.sys-elevation-v1{ 
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
 }
 
-.sys-elevation-v2{
-    @include elevation();
+.sys-elevation-v2{ 
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .sys-elevation-v3{
-    @include elevation();
     box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, 0.2);
 }
 
 .sys-elevation-v4{
-    @include elevation();
     box-shadow: 0px 80px 50px -30px rgba(0, 0, 0, 0.15);
 }
 
 .sys-elevation-v5{
-    @include elevation();
     box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.15);
 }
 
@@ -866,33 +857,24 @@ $gray:#292929;
 
     // elevation
 
-    
-    .sys-elevation{
-        @include elevation-dark();
-    }
-
     .sys-elevation-v1{
-        @include elevation-dark();
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
     }
 
     .sys-elevation-v2{
-        @include elevation-dark();
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     }
 
     .sys-elevation-v3{
-        @include elevation-dark();
         box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, 0.2);
     }
 
     .sys-elevation-v4{
-        @include elevation-dark();
-        box-shadow: 0px 80px 50px -30px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 80px 50px -30px rgba(0, 0, 0, 0.15);
     }
 
     .sys-elevation-v5{
-        @include elevation-dark();
+    
         box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.15);
     }
 
